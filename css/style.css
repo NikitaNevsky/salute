@@ -543,7 +543,7 @@ main {
 .offer {
   padding-top: 140px;
   padding-bottom: 24px;
-  background: url('../img/images/main.png') no-repeat top right;
+  background: url('../img/images/main.png') no-repeat top center;
   background-size: 360px 175px;
 }
 
