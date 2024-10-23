@@ -601,6 +601,7 @@ main {
 
 .memecoin__header {
   display: flex;
+  position: relative;
   z-index: 1;
   margin-bottom: 16px;
 }
@@ -668,6 +669,7 @@ main {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   z-index: 1;
+  position: relative;
 }
 
 .memecoin__line {
@@ -677,6 +679,7 @@ main {
   height: 1px;
   background-color: rgba(217, 217, 217, 0.05);
   margin-top: 6px;
+  position: relative;
 }
 
 .memecoin__bottom {
@@ -685,6 +688,7 @@ main {
   align-items: center;
   justify-content: space-between;
   z-index: 1;
+  position: relative;
 }
 
 .memecoin__stat {
@@ -1147,6 +1151,183 @@ select.custom-select {
 
 .progress.progress-20 {
   width: 20%;
+}
+
+.detailed__avatar {
+  width: 178px;
+  height: 178px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.detailed__avatar img {
+  width: 100%;
+}
+
+.detailed-ava {
+  padding: 55px;
+  background: url('../img/icons/radial.svg') no-repeat center center;
+}
+
+.detailed-info {
+  padding: 20px;
+  background-color: #141414;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.detailed-info__name {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.detailed-info__nickname {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+
+.detailed-info__percent {
+  font-size: 16px;
+  line-height: 16px;
+  color: #1EBE69;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 20px;
+  height: 24px;
+  background-color: rgba(30, 190, 105, 0.16);
+  width: max-content;
+}
+
+.trade {
+  padding: 20px;
+  background-color: #141414;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.coin__header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.coin__header button {
+  font-size: 12px;
+  line-height: 160%;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #333333;
+  border-radius: 16px;
+  padding: 2.5px 9px;
+  transition: all 0.3s ease;
+}
+
+.coin__header button:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.coin__input {
+  position: relative;
+}
+
+.coin__input input {
+  height: 60px;
+}
+
+.coin__coin {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 18px;
+  right: 16px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.coin__coin img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.coin__tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 8px;
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+
+.coin__tags button {
+  font-size: 12px;
+  line-height: 160%;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #333333;
+  border-radius: 16px;
+  padding: 2.5px 9px;
+  transition: all 0.3s ease;
+}
+
+.coin__tags button:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.coin__btn {
+  width: 100%;
+  height: 56px;
+  font-size: 16px;
+}
+
+.detailed__info {
+  padding: 20px;
+  background-color: #141414;
+  border-radius: 8px;
+}
+
+.detailed__text {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.detailed__links {
+  display: flex;
+  column-gap: 12px;
+  margin-top: 12px;
+}
+
+.detailed__links a img {
+  width: 20px;
+  height: 20px;
+}
+
+.trade .nav-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 40px;
+  background-color: #333333;
+  border-radius: 12px;
+  column-gap: 8px;
+}
+
+.trade .nav-tabs .nav-link {
+  width: 50%;
+  text-align: center;
+  height: 100%;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.trade .nav-tabs .nav-link.nav-link.active {
+  background-color: #1F1F1F!important;
 }
 
  
