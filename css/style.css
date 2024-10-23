@@ -1290,6 +1290,7 @@ select.custom-select {
   padding: 20px;
   background-color: #141414;
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .detailed__text {
@@ -1328,6 +1329,36 @@ select.custom-select {
 
 .trade .nav-tabs .nav-link.nav-link.active {
   background-color: #1F1F1F!important;
+}
+
+.curve {
+  padding: 20px;
+  background-color: #141414;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.curve__title {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.curve__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.curve__text p {
+  font-size: 12px;
+  color: #898989;
+  margin-bottom: 0;
+}
+
+.curve__text p span {
+  font-weight: bold;
 }
 
  
