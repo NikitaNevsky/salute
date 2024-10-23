@@ -944,4 +944,209 @@ select.custom-select {
 .memecoin__avatar::before {
   animation: html-progress 2s 1 forwards;
 }
+
+.pie {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  background: linear-gradient(-21deg, #333333 50%, transparent 50%), linear-gradient(to right, #333333 50%, #1EBE69 50%);
+}
+
+.tokens {
+  margin-top: 30px;
+  background-color: #141414;
+  border-radius: 8px;
+}
+
+.tokens__image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.tokens__image img {
+  width: 100%;
+}
+
+.tokens__header {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+  padding: 0 20px;
+  margin-bottom: 8px;
+}
+
+.tokens__name {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.tokens__nickname {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.tokens__percent {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 3px 8px;
+  background-color: #1EBE69;
+  border-radius: 100px;
+  height: 22px;
+  margin-left: auto;
+  margin-bottom: 11px;
+}
+
+.tokens__links {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.tokens__links a img {
+  width: 20px;
+  height: 20px;
+}
+
+.tokens__text {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  padding: 0 20px;
+  margin-bottom: 16px;
+}
+
+.tokens__line {
+  width: calc(100% - 40px);
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 1px;
+  background-color: rgba(217, 217, 217, 0.05);
+  margin-bottom: 20px;
+}
+
+.tokens__info {
+  padding: 0 20px;
+}
+
+.tokens__info--list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.tokens__info--item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tokens__info--left {
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.7;
+}
+
+.tokens__info--left img {
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+
+.tokens__info--right a {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.tokens__info--right {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: right;
+}
+
+.tokens__info--right span {
+  color: #1EBE69;
+}
+
+.tokens__info--right .share {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.pie-info {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1EBE69;
+}
+
+.pie-info .pie {
+  margin-right: 4px;
+}
+
+.tokens__listing {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 20px;
+  padding: 0 20px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(rgba(242,254,103,1), rgba(30,190,105,1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.listing__progress {
+  width: 100%;
+  height: 12px;
+  border-radius: 20px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.progress {
+  width: 100%;
+  height: 12px;
+  border-radius: 20px;
+  background: rgb(242,254,103);
+  background: linear-gradient(90deg, rgba(242,254,103,1) 0%, rgba(30,190,105,1) 100%);
+}
+
+.tokens__percent.blue {
+  background-color: rgba(21, 122, 251, 0.16);
+  color: #157AFB;
+  width: max-content;
+}
+
+.progress.progress-20 {
+  width: 20%;
+}
+
  
